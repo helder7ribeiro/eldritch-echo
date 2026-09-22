@@ -1,5 +1,5 @@
 /**
- * Eldrich Echo — extensões próprias para o sistema Call of Cthulhu 7th Edition.
+ * Eldritch Echo — extensões próprias para o sistema Call of Cthulhu 7th Edition.
  *
  * Tudo aqui é feito de fora do sistema: nada neste módulo exige alterar o
  * fork do CoC7. Quando algo só for possível mexendo no core, aí sim vai
@@ -7,7 +7,7 @@
  */
 import './dev-reload.js'
 
-export const MODULE_ID = 'eldrich-echo'
+export const MODULE_ID = 'eldritch-echo'
 const SYSTEM_ID = 'CoC7'
 
 function log (...args) {
@@ -20,8 +20,8 @@ Hooks.once('init', () => {
   game.modules.get(MODULE_ID).api = {}
 
   game.settings.register(MODULE_ID, 'autoReloadOnScript', {
-    name: 'ELDRICHECHO.Settings.AutoReload.Name',
-    hint: 'ELDRICHECHO.Settings.AutoReload.Hint',
+    name: 'ELDRITCHECHO.Settings.AutoReload.Name',
+    hint: 'ELDRITCHECHO.Settings.AutoReload.Hint',
     scope: 'client',
     config: true,
     type: Boolean,
@@ -38,8 +38,8 @@ Hooks.once('setup', () => {
 
   // APIs de registro públicas do CoC7 (coc7/hooks/init.js).
   // Descomente conforme for criando conteúdo próprio:
-  // game.CoC7.eras('eldrichEcho', 'ELDRICHECHO.Era.Name', 'fa-solid fa-anchor')
-  // game.CoC7.journalStyle('eldrich-noir', 'ELDRICHECHO.JournalStyle.Noir')
+  // game.CoC7.eras('eldritchEcho', 'ELDRITCHECHO.Era.Name', 'fa-solid fa-anchor')
+  // game.CoC7.journalStyle('eldritch-noir', 'ELDRITCHECHO.JournalStyle.Noir')
 
   log('setup — sistema', game.system.id, game.system.version)
 })

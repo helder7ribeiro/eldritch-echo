@@ -1,4 +1,4 @@
-# Eldrich Echo
+# Eldritch Echo
 
 Módulo pessoal para o sistema [Call of Cthulhu 7th Edition](https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT) no Foundry VTT.
 
