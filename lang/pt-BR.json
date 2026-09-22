@@ -1,0 +1,4 @@
+{
+  "ELDRICHECHO.Settings.AutoReload.Name": "Recarregar ao mudar script",
+  "ELDRICHECHO.Settings.AutoReload.Hint": "Recarrega a p\u00e1gina automaticamente quando um arquivo JavaScript muda durante o desenvolvimento."
+}
